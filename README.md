@@ -44,5 +44,6 @@ portfolio-resume-builder/
 └── README.md
 ```
 ## Author
-Sivapriya A
-Final Year  Student
+
+**Sivapriya A**  
+Final Year Student
