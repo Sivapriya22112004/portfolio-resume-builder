@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right, #f9f9f9, #e0eaff);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #2a2a72;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #6a11cb;
+  font-size: 1.2em;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-left: 10px solid #6a11cb;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border 0.3s ease, box-shadow 0.3s;
+  background: #f7f9fc;
+  color: #333;
+}
+
+input:focus, textarea:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+  outline: none;
+}
+
+button {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(106, 17, 203, 0.3);
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(106, 17, 203, 0.4);
+}
